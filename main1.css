@@ -1,8 +1,13 @@
 .header{
+    width:100%;
     height: 120px;
     background-image: linear-gradient(0, #000000, #000000);
     color: white;
     text-decoration: none;
+    position:fixed;
+    top:0px;
+    box-sizing: border-box;
+   
 }
 .header__navbar{
     display: flex;
@@ -58,3 +63,93 @@
     color: #000000;
     text-decoration: none;
 }
+
+/* CSS PHẦN THÂN */
+.img1{
+    width:100%;
+    height: 260px;
+    margin-top:110px;
+}
+.Chua-img2{
+    text-align: center;
+}
+
+.img2{
+    width:60%;
+    margin-top: 26px; 
+}
+
+/* css svg */
+.svg{
+    text-align: center;
+    margin-top: 30px;
+    position:relative;
+}
+
+
+.svgHCN{
+    width:580px;
+    height:40px;
+}
+
+#svgHCN-1{
+    fill:pink;
+}
+
+#svgHCN-2{
+    width:540px;
+    height:40px;
+    fill:pink;
+    stroke:pink;
+    stroke-width: 40px;
+}
+
+.dangky{
+    position:absolute;
+    top: 11px;
+    left: 850px;
+}
+/* css các chủ đề nổi bật */
+h2{
+    text-align: center;
+}
+
+.chude{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+/* PC */
+@media(min-width: 740px) {
+    .chude{
+        flex-direction: row;
+    }
+}
+.item{
+    width:20%;
+    height:160px;
+    
+}
+
+.item-1{
+    border:1px solid #000;
+    height:160px;
+}
+.one{
+   
+    background-image: url(anh3.png);
+    background-size: 100%;
+}
+.two{
+    background-image: url(anh4.png);
+    background-size: 100%;
+}
+.three{
+  
+    background-image: url(anh5.png);
+    background-size: 100%;
+}
+
+
+
+
