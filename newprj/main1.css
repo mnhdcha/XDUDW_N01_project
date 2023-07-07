@@ -79,44 +79,35 @@
     margin-top: 26px; 
 }
 
-/* css svg */
-.svg{
+/* css đăng ký tham gia Group! */
+.dangky_1{
     text-align: center;
-    margin-top: 30px;
-    position:relative;
+    margin-top: 15px;
 }
-
-
-.svgHCN{
-    width:580px;
-    height:40px;
+.dangky--group{
+    border:none;
+    background: linear-gradient(36deg,rgb(65 88 208) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 77%);
+    outline:none;
+    border-radius: 50px;
+    color:blue;
+    padding: 12px 50px;
+    cursor:pointer;
+    transition: opacity 0.2s ease;
 }
-
-#svgHCN-1{
-    fill:pink;
-}
-
-#svgHCN-2{
-    width:540px;
-    height:40px;
-    fill:pink;
-    stroke:pink;
-    stroke-width: 40px;
-}
-
-.dangky{
-    position:absolute;
-    top: 11px;
-    left: 850px;
+.dangky--group:hover{
+    opacity:0.8;
 }
 /* css các chủ đề nổi bật */
-h2{
+.title{
     text-align: center;
+    margin-top: 60px;
+    font-size: 26px;;
 }
 
 .chude{
     display:flex;
     flex-direction: column;
+    text-align: center;
     justify-content:space-evenly;
 }
 /* PC */
@@ -128,7 +119,8 @@ h2{
 .item{
     width:20%;
     height:160px;
-    
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .item-1{
@@ -148,6 +140,25 @@ h2{
   
     background-image: url(anh5.png);
     background-size: 100%;
+}
+
+/* css đăng ký tham gia Group! */
+.dangky_2{
+    text-align: center;
+    margin-top: 15px;
+}
+.dangky--thongbao{
+    border:none;
+    background-color: #0fbb98;
+    outline:none;
+    border-radius: 50px;
+    color:#000;
+    padding: 12px 50px;
+    cursor:pointer;
+    transition: opacity 0.2s ease;
+}
+.dangky--thongbao:hover{
+    opacity:0.8;
 }
 
 
