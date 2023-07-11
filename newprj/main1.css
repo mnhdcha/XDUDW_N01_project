@@ -40,33 +40,46 @@ body {
     animation: showRight 1s ease forwards;
     animation-delay: .4s;
 }
-.header__navbar{
-    display: flex;
-    justify-content: space-between;
-}
-.header__navbar-item{
-    list-style: none;
-    padding-left: 0;
-    margin-top: 4px;
+.navbar a {
+    font-size: 16px;
+    color: #ededed;
     text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
 }
-.header__navbar-item--has-noti:hover .header__noti {
+
+.navbar a:hover,
+.navbar a.header__navbar-item {
+    color: #00abf0;
+}   
+
+/* keyframe animation */
+@keyframes showRight {
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes manipActiveHover {
+    100% {
+        pointer-events: auto;
+    }
+}
+.header__navbar-item--has-noti:hover .navbar__noti {
     display: block;
 }
-.logo {
-    height: 67px;
-}
-.header__noti {
+.navbar__noti {
+    list-style: none;
     position: absolute;
     top: 44px;
     width: 160px;
-    height:200px;
+    height:315px;
     background-color: rgb(187, 33, 33);
-    border: 1px solid white;
+/*     border: 1px solid white; */
     transform-origin: top center;
     animation:headergrowth ease-in 0.3s ;
     display: none;
-
+    text-align: center;
 }
 @keyframes headergrowth {
     from {
@@ -78,28 +91,20 @@ body {
         transform: scale(1);
     }
 }
-.header__noti-header {
-    
-}
-.header__noti-list {
-    
-}
-.header__noti-item {
+.header__navbar-item,
+.navbar__noti-item {
     list-style: none;
-    padding-left: 0;
-    text-decoration: none;
-
 }
-.header__noti-name {
-    color: #000000;
-    text-decoration: none;
+.navbar__noti-item {
+    margin:15px ;
+    padding: 10px;
 }
 
 /* CSS PHẦN THÂN */
 .img1{
     width:100%;
-    height: 260px;
-    margin-top:110px;
+    height: 320px;
+/*     margin-top:110px; */
 }
 .Chua-img2{
     text-align: center;
@@ -141,6 +146,7 @@ body {
     flex-direction: column;
     text-align: center;
     justify-content:space-evenly;
+    margin: 16px;
 }
 /* PC */
 @media(min-width: 740px) {
