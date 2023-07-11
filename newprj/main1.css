@@ -112,6 +112,7 @@ body {
     text-align: center;
     margin-top: 60px;
     font-size: 26px;;
+    margin-bottom: 30px;
 }
 
 .chude{
@@ -170,6 +171,85 @@ body {
 .dangky--thongbao:hover{
     opacity:0.8;
 }
+/* các bài viết được yêu thích */
+.four{
+   
+    background-image: url(anh6.png);
+    background-size: 100%;
+}
+.five{
+    background-image: url(anh7.png);
+    background-size: 100%;
+}
+.six{
+  
+    background-image: url(anh8.png);
+    background-size: 100%;
+}
+.seven{
+   
+    background-image: url(anh9.png);
+    background-size: 100%;
+}
+.eight{
+    background-image: url(anh10.png);
+    background-size: 100%;
+}
+.nine{
+  
+    background-image: url(anh11.png);
+    background-size: 100%;
+}
+/* css các bài viết mới nhất */
+.title-2{
+    text-align: left;
+    margin-top: 120px;
+    font-size: 26px;;
+    margin-bottom: 20px;
+    margin-left: 10%;
+}
+.chuabaiviet{
+    margin: 0 10%;
+    height: 270px;
+    box-sizing: border-box;
+    display:flex;
+    position: relative;
+}
+.chuabaiviet_1{
+    width: 45%;
+}
+.left{
+    position:absolute;
+    left: 0;
+}
+.right{
+    position:absolute;
+    right: 0;
+}
+.chuabaiviet-danhsach{
+    list-style-type: none;
+}
+.baiviet{
+    margin: 10px 0px;
+    /* background-color: pink; */
+    height: 78px;
+    position: relative;
+}
+.baiviet-1{
+    display:flex;
+    text-decoration: none;
+    
+}
+.baiviet-1-text{
+    margin-left: 10px;
+}
+.baiviet-1-time{
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+}
+
+/*  */
 .home {
     height: 100vh;
     background: url('home.jpg') no-repeat ;
