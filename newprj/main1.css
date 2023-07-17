@@ -167,16 +167,16 @@ body {
 }
 .one{
    
-    background-image: url(anh3.png);
+    background-image: url(/img/anh3.png);
     background-size: 100%;
 }
 .two{
-    background-image: url(anh4.png);
+    background-image: url(/img/anh4.png);
     background-size: 100%;
 }
 .three{
   
-    background-image: url(anh5.png);
+    background-image: url(/img/anh5.png);
     background-size: 100%;
 }
 
@@ -201,30 +201,30 @@ body {
 /* các bài viết được yêu thích */
 .four{
    
-    background-image: url(anh6.png);
+    background-image: url(/img/anh6.png);
     background-size: 100%;
 }
 .five{
-    background-image: url(anh7.png);
+    background-image: url(/img/anh7.png);
     background-size: 100%;
 }
 .six{
   
-    background-image: url(anh8.png);
+    background-image: url(/img/anh8.png);
     background-size: 100%;
 }
 .seven{
    
-    background-image: url(anh9.png);
+    background-image: url(/img/anh9.png);
     background-size: 100%;
 }
 .eight{
-    background-image: url(anh10.png);
+    background-image: url(/img/anh10.png);
     background-size: 100%;
 }
 .nine{
   
-    background-image: url(anh11.png);
+    background-image: url(/img/anh11.png);
     background-size: 100%;
 }
 /* css các bài viết mới nhất */
@@ -279,7 +279,7 @@ body {
 /*  */
 .home {
     height: 100vh;
-    background: url('home.jpg') no-repeat ;
+    background: url('/img/home.jpg') no-repeat ;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -329,7 +329,3 @@ body {
     color: #00abf0;
     text-decoration: none;
 }
-
-
-
-
