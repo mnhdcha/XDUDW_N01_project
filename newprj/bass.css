@@ -1,0 +1,68 @@
+.dangky{
+    margin-top: 115px;
+    background-color: white;
+    height: 320px;
+    color:black;
+}
+.dangky-title{
+    color:#0f376a!important;
+    margin: 10px 10%;
+    padding-top:50px;
+    font-weight: 500!important;
+    font-size: 40px;
+}
+.dangky-content{
+    margin: 0px 10%;
+    display:flex;
+}
+.dangky-content-left-1{
+    margin: 16px 0px;
+    color:black;
+}
+.dangky-content-left-2{
+    margin: 16px 0px;
+    color:black;
+}
+.dangky-content-left{
+    flex: 1;
+}
+.dangky-content-right{
+    flex: 1;
+}
+.dangky-content-right_group{
+    display:flex;
+    flex-direction: column;
+}
+.dangky-content-right_text{
+    color:black;
+    margin-bottom: 5px;
+}
+.dangky-content-right_input{
+    padding: 6px 12px;
+    width: 415px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color:black;
+    outline: none;
+}
+.dangky-content-right_input:focus{
+    border-color:#6EC1E4;
+}
+.dangky_btn{
+    margin-top:20px;
+}
+.dangky_btn_email{
+    width: 415px;
+    height: 40px;
+    padding: 6px 12px;
+    background-color: rgba(41, 166, 120, 1);
+    border-color: #6EC1E4;
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.dangky_btn_email:hover{
+    background-color: white;
+    color:#6EC1E4;
+}
