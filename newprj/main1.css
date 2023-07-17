@@ -159,6 +159,10 @@ body {
     height:160px;
     margin-bottom: 60px;
     text-align: center;
+    transform: all 0.9s ease-in-out;
+}
+.item:hover{
+    transform: scale(1.05);
 }
 
 .item-1{
@@ -261,6 +265,10 @@ body {
     /* background-color: pink; */
     height: 78px;
     position: relative;
+    transform: all 0.9s ease-in-out;
+}
+.baiviet:hover{
+    transform: scale(1.05);
 }
 .baiviet-1{
     display:flex;
