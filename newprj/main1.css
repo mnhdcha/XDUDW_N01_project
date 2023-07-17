@@ -5,13 +5,14 @@
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
         color: #ededed;
+        text-decoration: none;
 }
 body {
         color: #ededed;
         background: #081b29;
 }
 .header{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -65,32 +66,6 @@ body {
         pointer-events: auto;
     }
 }
-.header__navbar-item--has-noti:hover .navbar__noti {
-    display: block;
-}
-.navbar__noti {
-    list-style: none;
-    position: absolute;
-    top: 44px;
-    width: 160px;
-    height:315px;
-    background-color: rgb(187, 33, 33);
-/*     border: 1px solid white; */
-    transform-origin: top center;
-    animation:headergrowth ease-in 0.3s ;
-    display: none;
-    text-align: center;
-}
-@keyframes headergrowth {
-    from {
-        opacity: 0;
-        transform: scale(0);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
 .header__navbar-item,
 .navbar__noti-item {
     list-style: none;
@@ -118,7 +93,7 @@ body {
 /* css đăng ký tham gia Group! */
 .dangky_1{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 40px;
 }
 .dangky--group{
     border:none;
@@ -136,7 +111,7 @@ body {
 /* css các chủ đề nổi bật */
 .title{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
     font-size: 26px;;
     margin-bottom: 30px;
 }
@@ -159,10 +134,6 @@ body {
     height:160px;
     margin-bottom: 60px;
     text-align: center;
-    transform: all 0.9s ease-in-out;
-}
-.item:hover{
-    transform: scale(1.05);
 }
 
 .item-1{
@@ -234,7 +205,7 @@ body {
 /* css các bài viết mới nhất */
 .title-2{
     text-align: left;
-    margin-top: 120px;
+    margin-top: 100px;
     font-size: 26px;;
     margin-bottom: 20px;
     margin-left: 10%;
@@ -265,10 +236,6 @@ body {
     /* background-color: pink; */
     height: 78px;
     position: relative;
-    transform: all 0.9s ease-in-out;
-}
-.baiviet:hover{
-    transform: scale(1.05);
 }
 .baiviet-1{
     display:flex;
@@ -280,7 +247,7 @@ body {
 }
 .baiviet-1-time{
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     left: 160px;
 }
 
@@ -294,12 +261,15 @@ body {
     align-items: center;
     padding: 0 10%;
 }
+.btn-box h1, p, a {
+    margin-top: 20px;
+}
 .btn-box a {
     position: relative;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 150px;
+    width: 110px;
     height: 100%;
     background: #00abf0;
     border: 2px solid #00abf0;
@@ -312,10 +282,7 @@ body {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    }
-/* .btn-box a:hover {
-        color: #00abf0;
-} */
+}
     .home-sci {
     position: absolute;
     bottom: 40px;
@@ -336,4 +303,85 @@ body {
     font-size: 20px;
     color: #00abf0;
     text-decoration: none;
+}
+footer {
+    background-color: #044244;
+    position: relative;
+}
+.footer-container {
+    width: 100%;
+    padding: 30px 30px 0px;
+    margin-top: 40px;
+}
+.footer-icons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.footer-icons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ededed;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.footer-icons a i{
+    font-size: 1.5em;
+    color: #044244;
+    opacity: 0.9;
+}
+.footer-icons a:hover {
+    background-color: #044244;
+    transition: 0.5s;
+}
+.footer-icons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+.footer-content {
+    margin: 30px 0;
+}
+.footer-content ul {
+    display: flex;
+    justify-content: center;
+}
+.footer-content ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+.footer-content li {
+    list-style: none;
+}
+.footer-content ul li a:hover {
+    opacity: 1;
+    color:#00abf0
+}
+.footer-bottom {
+    padding: 20px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 14px;
+}
+.footer-bottom p{
+    color: #ededed;
+}
+.designed {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+    font-size: 14px;
 }
