@@ -1,0 +1,46 @@
+.dangkythamgiagroup{
+    text-align: center;
+    margin-top: 115px;
+    background-color: white;
+    height: 400px;
+}
+.dangkythamgiagroup__heading{
+    padding-top:50px;
+    font-size: 32px;
+    color:#0f376a;
+    font-weight: 400;
+}
+.dangkythamgiagroup-item{
+    margin-top: 12px;
+}
+.dangkythamgiagroup-item__input{
+    width:40%;
+    height:48px;
+    margin-top:16px;
+    padding: 6px 12px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: black;
+    outline: none;
+}
+.dangkythamgiagroup-item__input:focus{
+    border-color: #6EC1E4;
+}
+.dangkythamgiagroup__control{
+    margin-top: 40px;
+}
+.dangkythamgiagroup-btn{
+    width:140px;
+    height:40px;
+    padding: 6px 12px;
+    background-color: #ff0808;
+    border-color: #ff0808;
+    color: #ffffff;
+    cursor:pointer;
+    border-radius: 5px;
+    transform: all 0.9s ease-in-out;
+}
+.dangkythamgiagroup-btn:hover{
+    transform: scale(1.1);
+}
+
